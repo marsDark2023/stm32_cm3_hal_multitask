@@ -90,6 +90,5 @@ extern struct Task_container_t tasks_container ;
     );
 int Schedul_init();
 
-#define SET_PENDSV_EXCEPTION_BIT  (SCB->ICSR |= SCB_ICSR_PENDSVSET_Msk)
 int PendSV_init( void );
 
